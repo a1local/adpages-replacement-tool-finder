@@ -1,0 +1,53 @@
+{
+  "name": "@a1local/adpages-replacement-tool-finder",
+  "version": "0.1.0",
+  "description": "Dependency-free CLI for prioritizing replacement-tool backlink opportunities from local backlink and resource-page exports.",
+  "type": "module",
+  "license": "MIT",
+  "sideEffects": false,
+  "main": "./src/index.mjs",
+  "exports": {
+    ".": "./src/index.mjs"
+  },
+  "bin": {
+    "adpages-replacement-tool-finder": "./bin/adpages-replacement-tool-finder.mjs"
+  },
+  "files": [
+    "bin",
+    "src",
+    "examples",
+    "README.md",
+    "PRIVACY.md",
+    "PUBLISH_BLOCKERS.md"
+  ],
+  "scripts": {
+    "check": "node scripts/check.mjs",
+    "smoke": "node scripts/smoke.mjs",
+    "pack:dry-run": "npm pack --dry-run",
+    "prepublishOnly": "npm run check && npm run smoke"
+  },
+  "keywords": [
+    "backlinks",
+    "link-building",
+    "replacement-tool",
+    "local-seo",
+    "resource-pages",
+    "broken-links",
+    "agency"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/a1local/adpages-replacement-tool-finder.git"
+  },
+  "homepage": "https://github.com/a1local/adpages-replacement-tool-finder#readme",
+  "bugs": {
+    "url": "https://github.com/a1local/adpages-replacement-tool-finder/issues"
+  },
+  "funding": {
+    "type": "custom",
+    "url": "https://a1local.com.au/extensions/"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
