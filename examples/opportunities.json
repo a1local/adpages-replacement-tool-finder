@@ -1,0 +1,47 @@
+[
+  {
+    "id": "rto-001-agency-example-schema-validator",
+    "score": 100,
+    "priority": "high",
+    "campaignType": "replacement-tool-backlinks",
+    "referringPageUrl": "https://agency.example/resources/local-seo-tools",
+    "oldToolUrl": "https://old-schema-tools.example/local-business-validator",
+    "recommendedReplacement": "Free local business schema validator"
+  },
+  {
+    "id": "rto-002-localweb-example-local-business-website-checker",
+    "score": 100,
+    "priority": "high",
+    "campaignType": "replacement-tool-backlinks",
+    "referringPageUrl": "https://localweb.example/checklists/small-business-website",
+    "oldToolUrl": "https://sitecheck.example/local-business-website-checker",
+    "recommendedReplacement": "Free local business website checker"
+  },
+  {
+    "id": "rto-003-studio-example-form-endpoint-checker",
+    "score": 90,
+    "priority": "high",
+    "campaignType": "replacement-tool-backlinks",
+    "referringPageUrl": "https://studio.example/client-launch-checklist",
+    "oldToolUrl": "https://formtools.example/form-endpoint-checker",
+    "recommendedReplacement": "Free form endpoint checker"
+  },
+  {
+    "id": "rto-004-bootcamp-example-click-to-call-tester",
+    "score": 88,
+    "priority": "high",
+    "campaignType": "replacement-tool-backlinks",
+    "referringPageUrl": "https://bootcamp.example/web-design-course/resources",
+    "oldToolUrl": "https://calltest.example/click-to-call-checker",
+    "recommendedReplacement": "Free click-to-call tester"
+  },
+  {
+    "id": "rto-005-maps-marketing-example-gbp-link-checker",
+    "score": 86,
+    "priority": "high",
+    "campaignType": "replacement-tool-backlinks",
+    "referringPageUrl": "https://maps-marketing.example/resources",
+    "oldToolUrl": "https://gbp-tools.example/profile-link-checker",
+    "recommendedReplacement": "Free GBP link checker"
+  }
+]
